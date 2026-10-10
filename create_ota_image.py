@@ -51,7 +51,7 @@ def create_zigbee_ota_file(input_bin, output_ota, file_version=DEFAULT_FILE_VERS
         image_type=IMAGE_TYPE,
         file_version=file_version,
         stack_version=2,  # Zigbee PRO
-        header_string="ESP32-H2 Water Leak Sensor",
+        header_string="ESP32-H2 Vibration Sensor",
         image_size=0,  # Will be calculated
     )
 
